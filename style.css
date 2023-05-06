@@ -1,0 +1,225 @@
+body{
+	text-align: center;
+
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+header {
+	background-image: url(BG.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 110vh;
+	margin: 0;
+
+}
+
+/*Styling the nav bar*/
+nav{
+	width: 100%;
+	height: 90px;
+	background: rgb(95, 166, 95);
+	margin: 0;
+	z-index: 10;
+	position: fixed;
+	opacity: 90%;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 33px;
+	margin-right: 50px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px transparent;
+	padding: 9px 20px;
+	font-size: 18px;
+}
+
+/*The color of an element changes when the cursor hovers over it*/
+
+.main a:link {
+  color: whitesmoke;
+}
+
+.main a:hover{
+	color: rgb(198, 234, 207);
+	transition: 0.4s ease;
+}
+
+
+.logo{
+	height: 85px;
+	float: left;
+	margin: 5px 50px ;
+}
+
+/*The text is being positioned to the left part*/
+.FL {
+    position: fixed;
+	color: black;
+	padding-left: 85px;
+	padding-top: 210px;
+	font-size: 29px;
+	font-family: verdana;
+}
+
+/*The text is being positioned to the left part*/
+.goal p{
+	text-align: left;
+	border: solid transparent;
+	margin-right: 800px;
+	margin-left: 85px;
+	margin-top: 240px ;
+	margin-bottom: 10px;
+	position: fixed;
+	font-size: 18px;
+}
+
+/*The text is being positioned to the left part*/
+.goal .pop{
+	text-align: left;
+	border: solid transparent;
+	margin-right: 800px;
+	margin-left: 85px;
+	margin-top: 380px ;
+	margin-bottom: 10px;
+	position: fixed;
+}
+
+.JOIN {
+    position: fixed;
+      color: black;
+      padding-left: 85px;
+      padding-top: 360px;
+      font-size: 29px;
+      font-family: verdana;
+  }
+
+/*The link "learn more" is being styled, and it is positioned under the main text/content*/
+.LM{
+	text-align: left;
+	border: 2.5px solid black;
+	border-radius: 15px;
+	padding: 10px 35px;
+	margin-right: 800px;
+	margin-left:85px;
+	margin-top: 470px ;
+	margin-bottom: 10px;
+	position: fixed;
+}
+
+/*The learn more button is being styled. It changes color when hovered on*/
+.LM a{
+	text-decoration: none;
+	color: black;
+}
+
+.LM a:hover{
+	color: black;
+	text-decoration: underline;
+}
+
+
+/*LOG IN FORM*/
+.container{
+    border: solid white ;
+    height: 450px;
+    width: 450px;
+    background-color: white;
+    border-radius: 8px;
+    margin-left: 900px;
+    margin-top: 130px;
+    text-align: center;
+	position: fixed;
+}
+
+.container h1{
+	padding-top: 18px;
+	padding-bottom: 15px;
+}
+
+#error{
+	padding-bottom: 8px;
+}
+
+#username{
+    width: 250px;
+    height: 23px;
+	padding-bottom: 5px;
+}
+
+#password{
+    width: 250px;
+    height: 23px;
+	padding-bottom: 5px;
+	
+}
+
+#email{
+    width: 250px;
+    height: 23px;
+	padding-bottom: 5px;
+	
+}
+
+#contactno{
+    width: 250px;
+    height: 23px;
+	padding-bottom: 5px;
+	
+}
+
+#username:hover{
+    background-color: rgb(214, 238, 220);
+}
+
+#password:hover{
+    background-color: rgb(214, 238, 220);
+}
+
+#email:hover{
+    background-color: rgb(214, 238, 220);
+}
+
+#contactno:hover{
+    background-color: rgb(214, 238, 220);
+}
+
+#loginb{
+    margin-top: 20px;
+    padding: 13px 25px;
+    background-color: rgb(95, 166, 95);
+    border: rgb(95, 166, 95);
+    font-size: 16px;
+    color: white;
+	border-radius: 10px;
+}
+
+#resetb{
+    margin-top: 20px;
+    padding: 13px 30px;
+    background-color: rgb(95, 166, 95);
+    border: rgb(95, 166, 95);
+    font-size: 16px;
+    color: white;
+	border-radius: 10px;
+}
+
+
+
+
